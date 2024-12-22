@@ -1,0 +1,29 @@
+error[E0463]: can't find crate for `std`
+  |
+  = note: the `riscv64gc-unknown-none-elf` target may not support the standard library
+  = note: `std` is required by `autocfg_5db726715442f5f7_0` because it does not declare `#![no_std]`
+  = help: consider building the standard library from source with `cargo build -Zbuild-std`
+
+error: aborting due to 1 previous error
+
+For more information about this error, try `rustc --explain E0463`.
+error[E0412]: cannot find type `AtomicU128` in module `core::sync::atomic`
+    --> <anon>:2:38
+     |
+2    |   pub type Probe = core::sync::atomic::AtomicU128;
+     |                                        ^^^^^^^^^^ help: a struct with a similar name exists: `AtomicU16`
+     |
+    ::: /home/ustc/.rustup/toolchains/nightly-2024-05-02-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/sync/atomic.rs:3076:1
+     |
+3076 | / atomic_int! {
+3077 | |     cfg(target_has_atomic = "16"),
+3078 | |     cfg(target_has_atomic_equal_alignment = "16"),
+3079 | |     stable(feature = "integer_atomics_stable", since = "1.34.0"),
+...    |
+3091 | |     u16 AtomicU16
+3092 | | }
+     | |_- similarly named struct `AtomicU16` defined here
+
+error: aborting due to 1 previous error
+
+For more information about this error, try `rustc --explain E0412`.

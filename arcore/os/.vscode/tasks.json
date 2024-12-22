@@ -1,0 +1,21 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run GDB Server",
+      "type": "shell",
+      "command": "make gdbserver",  // 执行 make gdbserver 命令
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      },
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "silent",
+        "echo": true,
+        "focus": false,
+        "clear": true
+      }
+    }
+  ]
+}

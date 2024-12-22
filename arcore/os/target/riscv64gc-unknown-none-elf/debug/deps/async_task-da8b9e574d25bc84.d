@@ -1,0 +1,11 @@
+/home/ustc/桌面/os/project2608132-275325/os/target/riscv64gc-unknown-none-elf/debug/deps/libasync_task-da8b9e574d25bc84.rmeta: /home/ustc/.cargo/registry/src/index.crates.io-6f17d22bba15001f/async-task-4.7.1/src/lib.rs /home/ustc/.cargo/registry/src/index.crates.io-6f17d22bba15001f/async-task-4.7.1/src/header.rs /home/ustc/.cargo/registry/src/index.crates.io-6f17d22bba15001f/async-task-4.7.1/src/raw.rs /home/ustc/.cargo/registry/src/index.crates.io-6f17d22bba15001f/async-task-4.7.1/src/runnable.rs /home/ustc/.cargo/registry/src/index.crates.io-6f17d22bba15001f/async-task-4.7.1/src/state.rs /home/ustc/.cargo/registry/src/index.crates.io-6f17d22bba15001f/async-task-4.7.1/src/task.rs /home/ustc/.cargo/registry/src/index.crates.io-6f17d22bba15001f/async-task-4.7.1/src/utils.rs
+
+/home/ustc/桌面/os/project2608132-275325/os/target/riscv64gc-unknown-none-elf/debug/deps/async_task-da8b9e574d25bc84.d: /home/ustc/.cargo/registry/src/index.crates.io-6f17d22bba15001f/async-task-4.7.1/src/lib.rs /home/ustc/.cargo/registry/src/index.crates.io-6f17d22bba15001f/async-task-4.7.1/src/header.rs /home/ustc/.cargo/registry/src/index.crates.io-6f17d22bba15001f/async-task-4.7.1/src/raw.rs /home/ustc/.cargo/registry/src/index.crates.io-6f17d22bba15001f/async-task-4.7.1/src/runnable.rs /home/ustc/.cargo/registry/src/index.crates.io-6f17d22bba15001f/async-task-4.7.1/src/state.rs /home/ustc/.cargo/registry/src/index.crates.io-6f17d22bba15001f/async-task-4.7.1/src/task.rs /home/ustc/.cargo/registry/src/index.crates.io-6f17d22bba15001f/async-task-4.7.1/src/utils.rs
+
+/home/ustc/.cargo/registry/src/index.crates.io-6f17d22bba15001f/async-task-4.7.1/src/lib.rs:
+/home/ustc/.cargo/registry/src/index.crates.io-6f17d22bba15001f/async-task-4.7.1/src/header.rs:
+/home/ustc/.cargo/registry/src/index.crates.io-6f17d22bba15001f/async-task-4.7.1/src/raw.rs:
+/home/ustc/.cargo/registry/src/index.crates.io-6f17d22bba15001f/async-task-4.7.1/src/runnable.rs:
+/home/ustc/.cargo/registry/src/index.crates.io-6f17d22bba15001f/async-task-4.7.1/src/state.rs:
+/home/ustc/.cargo/registry/src/index.crates.io-6f17d22bba15001f/async-task-4.7.1/src/task.rs:
+/home/ustc/.cargo/registry/src/index.crates.io-6f17d22bba15001f/async-task-4.7.1/src/utils.rs:

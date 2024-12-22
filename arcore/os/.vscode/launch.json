@@ -1,0 +1,30 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug with GDB Server and GDB Client",
+      "type": "cppdbg",
+      "request": "launch",
+      "preLaunchTask": "Run GDB Server",  // 启动 GDB 服务器的任务
+      "program": "${workspaceFolder}/target/riscv64gc-unknown-none-elf/debug/os",  // 你的 ELF 文件路径
+      "args": [],
+      "stopAtEntry": true,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ],
+      "miDebuggerPath": "/usr/bin/gdb-multiarch",  // GDB 路径
+      "miDebuggerServerAddress": "localhost:1234",  // GDB 服务器地址
+      "serverStarted": "",
+      "filterStdout": false,
+      "filterStderr": false
+    }
+  ]
+}

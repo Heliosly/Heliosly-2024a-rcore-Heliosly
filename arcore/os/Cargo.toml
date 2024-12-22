@@ -1,0 +1,34 @@
+[package]
+name = "os"
+version = "0.1.0"
+edition = "2021"
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+riscv = { path="../dependencies/riscv", features = ["inline-asm"] }
+lazy_static = { version = "1.4.0", features = ["spin_no_std"] }
+log = "0.4"
+bitflags = "1.2.1"
+xmas-elf = "0.7.0"
+virtio-drivers = { git = "https://github.com/rcore-os/virtio-drivers", rev = "4ee80e5" }
+easy-fs = { path = "../easy-fs" }
+async-task = {version = "4", default-features = false}
+scoped-tls = {git = "https://github.com/js2xxx/scoped-tls", branch = "no_std"}
+async-lock= {version = "3.4.0", default-features = false}
+spin={version = "0"}
+[profile.release]
+debug = true
+
+[dependencies.crossbeam-queue]
+version = "0.3.8"
+default-features = false
+features = ["alloc"]
+
+[dependencies.conquer-once]
+version = "0.2.0"
+default-features = false
+
+[dependencies.futures-util]
+version = "0.3.4"
+default-features = false
+features = ["alloc"]
